@@ -1,0 +1,10 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+
+  @media (max-width: 640px) {
+    margin-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  src: url("/src/assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  src: url("/src/assets/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf");
+}
+
+:root {
+  font: 1rem / normal "Josefin Sans", sans-serif;
+
+  --color-dark-grayish-blue: hsl(240, 9%, 61%);
+  --color-very-light-grayish-blue: hsl(235, 32%, 92%);
+  --color-very-dark-grayish-blue: hsl(235, 19%, 35%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
+  --color-bright-blue: hsl(220, 98%, 61%);
+  --color-light-grayish-blue: hsl(233, 11%, 84%);
+  --color-light-blue: hsl(192, 100%, 67%);
+  --color-pink: hsl(280, 87%, 65%);
+  --color-very-dark-blue: hsl(235, 21.40%, 11.00%);
+  --color-very-dark-desaturated-blue: hsl(235, 23.70%, 19.00%);
+  --color-very-dark-grayish-blue-2: hsl(237, 14%, 26%);
+  --color-dark-grayish-blue-2: hsl(233, 11%, 52%);
+  --color-light-grayish-blue-2: hsl(234, 39.50%, 85.10%);
+  --color-very-dark-grayish-blue-2: hsl(233, 14.00%, 35.10%);
+
+  --radius-small: 5px;
+
+  --transition-smooth: .15s linear;
+}
+
+body {
+  font-size: 1.125rem;
+  letter-spacing: -0.25px;
+  margin: unset;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  margin: unset;
+}
+
+input {
+  appearance: none;
+  background: unset;
+  border: unset;
+  color: unset;
+  font: unset;
+  margin: unset;
+  padding: unset;
+}
+
+::placeholder {
+  color: unset;
+  font: unset;
+}
+
+button {
+  appearance: none;
+  background: unset;
+  border: unset;
+  color: unset;
+  cursor: pointer;
+  font: unset;
+  margin: unset;
+  padding: unset;
+}
+
+button :is(img, svg) {
+  display: block;
+}
+
+ol {
+  margin: unset;
+  padding: unset;
+}
+
+fieldset {
+  border: unset;
+  margin: unset;
+  padding: unset;
+}
+
+p {
+  margin: unset;
+}
