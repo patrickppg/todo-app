@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { getTodos } from "./utils"
-import { nanoid } from 'nanoid'
+// import { nanoid } from 'nanoid'
 import Header from './components/Header/Header.jsx'
 import AddTodo from './components/AddTodo/AddTodo.jsx'
 import Todos from './components/Todos/Todos.jsx'
@@ -63,17 +63,17 @@ function App() {
 }
 
 let initialTodos = getTodos()
-if (!window.localStorage.getItem("todos")) {
-  initialTodos = [
-    { id: nanoid(), description: "Complete online JavaScript course", isCompleted: true },
-    { id: nanoid(), description: "Jog around the park 3x", isCompleted: false },
-    { id: nanoid(), description: "10 minutes meditation", isCompleted: false },
-    { id: nanoid(), description: "Read for 1 hour", isCompleted: false },
-    { id: nanoid(), description: "Pick up groceries", isCompleted: false },
-    { id: nanoid(), description: "Complete Todo App on Frontend Mentor", isCompleted: false },
-  ]
+// if (!window.localStorage.getItem("todos")) {
+//   initialTodos = [
+//     { id: nanoid(), description: "Complete online JavaScript course", isCompleted: true },
+//     { id: nanoid(), description: "Jog around the park 3x", isCompleted: false },
+//     { id: nanoid(), description: "10 minutes meditation", isCompleted: false },
+//     { id: nanoid(), description: "Read for 1 hour", isCompleted: false },
+//     { id: nanoid(), description: "Pick up groceries", isCompleted: false },
+//     { id: nanoid(), description: "Complete Todo App on Frontend Mentor", isCompleted: false },
+//   ]
   
-  window.localStorage.setItem("todos", JSON.stringify(initialTodos))
-}
+//   window.localStorage.setItem("todos", JSON.stringify(initialTodos))
+// }
 
 export default App
